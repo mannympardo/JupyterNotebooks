@@ -4,7 +4,7 @@ This Jupyter Notebook written in Python utilizes the Haversine calculation (sinc
 
 Haversine returns a distance in this case in Kilometers which can be adjusted to Miles if necessary, by interchanging the constants. (km = 6371, miles = 3959)
 
-![image](https://user-images.githubusercontent.com/13180882/110188235-0e8e7080-7de9-11eb-8e0e-70cb6a0b7bbb.png)
+https://en.wikipedia.org/wiki/Haversine_formula
 
 Included are the sample input data files which can also be gotten here https://github.com/EQWorks/ws-data-spark along with a sample of the output which is reflected in the Jupyter output.
 
@@ -21,5 +21,3 @@ C. Analysis
 
 Note
 While a dynamic and scalable DataSample.csv is supported; at the time of this release the POIList.csv file is limited to 4 entries.
-
-
