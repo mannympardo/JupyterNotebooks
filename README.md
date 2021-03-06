@@ -1,8 +1,12 @@
 # JupyterNotebooks
 
-This Jupitery Notebook written in Python utilize the Haversine calculation (since we know the earth is round) to calculate the distance between a request from the DataSample.csv and POILIst.csv files. We then take this calculation to perform analysis such as proximity density, average distance, and the standar deviation. 
+This Jupyter Notebook written in Python utilizes the Haversine calculation (since we know the earth is round) to calculate the distance between a request from the DataSample.csv and coordinate pairs from the POILIst.csv files. We then take this calculation to perform analysis such as proximity density, average distance, and the standard deviation. 
 
-Included are the sample input data files whch can also be gotten here https://github.com/EQWorks/ws-data-spark along with a sample of the output. 
+Haversine returns a distance in this case in Kilometers which can be adjusted to Miles if necessary, by interchanging the constants. (km = 6371, miles = 3959)
+
+![image](https://user-images.githubusercontent.com/13180882/110188235-0e8e7080-7de9-11eb-8e0e-70cb6a0b7bbb.png)
+
+Included are the sample input data files which can also be gotten here https://github.com/EQWorks/ws-data-spark along with a sample of the output which is reflected in the Jupyter output.
 
 A. Cleanup
   We start by removing any duplications of the two coordinate pairs from the DataSample.csv file. 
@@ -16,5 +20,6 @@ C. Analysis
  At each POI, draw a circle (with the center at the POI) that includes all of its assigned requests. Calculate the radius and density (requests/area) for each POI.
 
 Note
-While a dynamic and scalabel DataSample.csv is supported; at the time of this release the POIList.csv file is limited to 4 entries. 
+While a dynamic and scalable DataSample.csv is supported; at the time of this release the POIList.csv file is limited to 4 entries.
+
 
