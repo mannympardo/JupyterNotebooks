@@ -2,6 +2,8 @@
 
 This Jupitery Notebook written in Python utilize the Haversine calculation (since we know the earth is round) to calculate the distance between a request from the DataSample.csv and POILIst.csv files. We then take this calculation to perform analysis such as proximity density, average distance, and the standar deviation. 
 
+Included are the sample input data files whch can also be gotten here https://github.com/EQWorks/ws-data-spark along with a sample of the output. 
+
 A. Cleanup
   We start by removing any duplications of the two coordinate pairs from the DataSample.csv file. 
 
