@@ -2,7 +2,7 @@
 
 This Jupyter Notebook written in Python utilizes the Haversine calculation (since we know the earth is round) to calculate the distance between a request from the DataSample.csv and coordinate pairs from the POILIst.csv files. We then take this calculation to perform analysis such as proximity density, average distance, and the standard deviation. 
 
-Haversine returns a distance in this case in Kilometers which can be adjusted to Miles if necessary, by interchanging the constants. (km = 6371, miles = 3959)
+Haversine returns a distance in this case in Km which can be adjusted to Miles if necessary, by interchanging the constants. (km = 6371, miles = 3959)
 
 https://en.wikipedia.org/wiki/Haversine_formula
 
